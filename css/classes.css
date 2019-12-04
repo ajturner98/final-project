@@ -43,14 +43,20 @@ h2{
 /*Grid Container*/
 #classes{
   display: grid;
-  grid-template-columns: 33% 34% 33%;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: repeat(3, 1fr);
+grid-auto-rows auto;
 }
 
 .class{
   background: #565E85;
   margin: 25px;
   text-align: center;
+  color: #fff;
+  max-height: auto;
+}
+
+.description{
+  text-align: left;
 }
 
 
