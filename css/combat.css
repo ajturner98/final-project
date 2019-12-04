@@ -1,0 +1,156 @@
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #d0c8b0;
+}
+
+header{
+  background: #6E6E6E;
+  display: flex;
+  padding: .5rem;
+  margin:0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav{
+  text-decoration: none;
+  color: #fff;
+  text-align: right;
+  margin-right: 25px;
+}
+
+#two{
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  margin-left: 20px;
+  color: #fff;
+}
+
+p{
+  margin-left: 20px;
+}
+
+h3{
+  margin-left: 20px;
+}
+
+h2{
+  margin-left: 20px;
+}
+
+img{
+  max-width: 40%;
+  height: 550px;
+  margin: 0 25px 25px 25px;
+}
+
+#game{
+  background: #000;
+  max-width: 60%;
+  margin-left: 20px;
+  max-height: 550px;
+  margin-bottom: 25px;
+}
+
+footer{
+  background: #6E6E6E;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  padding: 2rem;
+  margin:0;
+}
+
+#narration{
+  background: #fff;
+  padding: 1em;
+  margin: 1em;
+}
+
+nav {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#controls{
+  display: flex;
+  margin-top: 190px;
+  margin-left:1em;
+}
+
+.buttons{
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#599bb3;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+  margin-right: 5px;
+  display: none;
+}
+.buttons:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.buttons:active {
+	position:relative;
+	top:1px;
+}
+
+#start {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+  margin-left: 300px;
+  margin-top: 159px;
+}
+#start:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+#start:active {
+	position:relative;
+	top:1px;
+}
+
+/* links   for (let i = 0; i < myElements.length; i++) {
+  	mainButtons[i].style.display = "block";
+  }
+
+let halInitiative = Math.floor(Math.random() * 20)+3;
+let goblinInitiative = Math.floor(Math.random() * 20)+3;
+let bossInitiative = Math.floor(Math.random() * 20)+3;
+  if (halInitiative > goblinInitiative && halInitiative > bossInitiative) {
+
+  } else {
+
+  } */
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #82E8FF;
+}

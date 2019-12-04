@@ -23,8 +23,6 @@ nav{
   text-align: right;
   margin-right: 25px;
 }
-
-
 h1 {
   margin-left: 20px;
   color: #fff;
@@ -42,25 +40,19 @@ h2{
   margin-left: 20px;
 }
 
-dl{
-  margin: 20px;
+/*Grid Container*/
+#classes{
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  grid-template-rows: 25% 25% 25% 25%;
 }
 
-dt{
-  padding: 20px;
-  font-size: 1.5rem;
-}
-
-.qs{
+.class{
   background: #565E85;
-  margin: 10px 0px 10px 0px;
-  color: #fff;
+  margin: 25px;
+  text-align: center;
 }
 
-dd{
-  margin: 0 20px;
-  padding-bottom: 20px;
-}
 
 footer{
   background: #565E85;
