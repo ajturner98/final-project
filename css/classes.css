@@ -23,6 +23,12 @@ nav{
   text-align: right;
   margin-right: 25px;
 }
+
+.navbtn{
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
 h1 {
   margin-left: 20px;
   color: #fff;
@@ -77,6 +83,10 @@ nav a {
 
 a:visited {
     color: #A6D17D;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #fff;
     text-decoration: none;
 }
 

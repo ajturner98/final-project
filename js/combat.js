@@ -185,6 +185,7 @@ attack2.onclick = () => {
   else {
     message = m13;
   }
+
   writeResults();
     };
 
@@ -258,6 +259,14 @@ turn.addEventListener('click', goblinFight);
 
 //Goblin Fighting
 function goblinFight(){
+if (goblinHealth1 <= 0 && goblinHealth2 <= 0 && bossHealth <= 0){
+  let m27 = "You have defeated the last goblin and claimed victory! The path to Moro's Keep is now open. You can now continue down the road. While this is a very simplified version of D&D combat, you now know the basics of the character sheet as it relates to combat! If while playing at the table you don't understand something, just ask. Your friends in the table will be happy to fill you in on terms you may not know. Happy adventuring.";
+  message = m27;
+  end.forEach(function(el){
+    el.style.display = 'none'});
+  attacks.forEach(function(el){
+    el.style.display = 'none'});
+} else {
   sheet.setAttribute("src",  "images/sheets/ac_health.png");
   let goblinAttack = Math.floor(Math.random() * 20)+5;
   let goblinDamage = (Math.floor(Math.random() * 6)+3);
@@ -308,18 +317,23 @@ function goblinFight(){
 } else {
   message = m23;
 }
-
 //Game over simulations
 if (halHealth <= 0){
   let m26 = "You have been reduced to 0 hit points or below. While that means it's Game Over here, that doesn't necessarily mean it would be the case in an actual D&D game. Your party will likely have someone who can heal you and keep you from reaching 0 HP. Otherwise, you would do death saving throws to try stabalizing. Also, if your health reaches negative your maximum number of hit points, you're automtically dead. Refresh the page to play again!";
   message = m26;
   document.querySelector("#narration").textContent = message;
+  end.forEach(function(el){
+    el.style.display = 'none'});
+    attacks.forEach(function(el){
+      el.style.display = 'none'});
+  halHealth = 0;
 } else {
 attacks.forEach(function(el){
   el.style.display = 'block';
 });
 end.forEach(function(el){
   el.style.display = 'none'});
+}
 }
 writeResults()
 }

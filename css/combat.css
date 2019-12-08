@@ -5,7 +5,7 @@ body{
 }
 
 header{
-  background: #6E6E6E;
+  background: #565E85;
   display: flex;
   padding: .5rem;
   margin:0;
@@ -49,20 +49,20 @@ h2{
 
 img{
   max-width: 40%;
-  height: 550px;
   margin: 0 25px 25px 25px;
+  height: 502px;
 }
 
 #game{
   background: #000;
   width: 60%;
   margin-left: 20px;
-  max-height: 550px;
   margin-bottom: 25px;
+  height: 50%;
 }
 
 footer{
-  background: #6E6E6E;
+  background: #565E85;
   color: #fff;
   text-align: center;
   font-size: 1rem;
@@ -81,36 +81,17 @@ nav {
   font-size: 20px;
 }
 
-#controls{
-  display: flex;
-  margin-top: 190px;
-  margin-left:1em;
+#game{
+  background: #565E85;
+  margin: 20px;
+  width: 60%;
+  padding-top: 20px;
 }
 
-.buttons{
-	box-shadow:inset 0px 1px 0px 0px #54a3f7;
-	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
-	background-color:#599bb3;
-	border-radius:3px;
-	border:1px solid #124d77;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:13px;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #154682;
-  margin-right: 5px;
-  display: none;
-}
-.buttons:hover {
-	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
-	background-color:#0061a7;
-}
-.buttons:active {
-	position:relative;
-	top:1px;
+#narration{
+  background: #d0c8b0;
+  padding: 20px;
+  margin-top: 10px;
 }
 
 #start {
@@ -127,9 +108,64 @@ nav {
 	padding:13px 32px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #3d768a;
-  margin: 300px;
-  margin-top: 159px;
+  margin: 20px;
 }
+#startdiv{
+  text-align: center;
+}
+
+li{
+list-style-type: none;
+text-align: center;
+}
+
+#halStats{
+  display: inline;
+  text-align: center;
+  color: #fff;
+}
+
+.buttons{
+background: #d0c8b0;
+margin: 20px;
+text-align: center;
+padding: 5px;
+font-weight: 600;
+font-size: 1.4rem;
+cursor: pointer;
+}
+
+#restart{
+  background: #d0c8b0;
+  margin: 20px;
+  text-align: center;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.buttons2{
+background: #d0c8b0;
+margin: 20px;
+text-align: center;
+padding: 5px;
+font-weight: 600;
+font-size: 1.4rem;
+cursor: pointer;
+}
+
+#full{
+  display: flex;
+  /*media query this for game*/
+}
+
+img{
+  text-align: right;
+  padding:20px;
+  max-width: 40%;
+}
+
 #start:hover {
 	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
 	background-color:#408c99;
@@ -145,6 +181,16 @@ nav a {
     color: #fff;
     text-decoration: none;
 }
+
+a:visited {
+    color: #A6D17D;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
 a:hover {
     color: #82E8FF;
 }
