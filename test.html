@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="css/races.css" rel="stylesheet">
+    <link href="css/game.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <h1>A Beginner's Guide to 5e D&D</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="classes.html">Classes</a>
+        <a href="races.html">Races</a>
+        <a href="combat.html">Combat</a>
+        <a href="resources.html">Resources</a>
+      </nav>
+    </header>
+    <h2>The Character Sheet and Combat</h2>
+      <p>This game will walk you through a few typical rounds of combat while explaining the concepts of the character sheet. That way, when you sit down for your first Dungeons and Dragons, you already know where to look! As you go through the battle simulation, the character sheet on the side show the relevant numbers to help you better read the character sheet. As you level up and play different classes, combat becomes more complicated because the only limit in real D&D combat is you imagination. And dice rolls, of course.</p>
+    <h3>Jump in the shoes of Hal Heroman — a third level human fighter!</h3>
+  <div id="full">
+    <div id="game">
+
+      <p id="narration"></p>
+      <div id="startdiv">
+      <button type="button" id="start">Roll Initiative</button>
+      </div>
+      <div id="body">
+        <div id="halStats">
+          <p>Health: <span id="health"></span> | Second Wind Remaining: <span id="wind"></span> | Action Surge Remaining: <span id="surge"></span></p>
+        </div>
+        <div id="buttons">
+          <div class="buttons" id="attack1">
+            <p>Attack Goblin 1 with Greataxe</p>
+          </div>
+
+          <div class="buttons" id="attack2">
+            <p>Attack Goblin 2 with Greataxe</p>
+          </div>
+
+          <div class="buttons" id="attack3">
+            <p>Attack Goblin Boss with Greataxe</p>
+          </div>
+
+          <div class="buttons2" id="actionSurge">
+            <p>Action Surge (Gain an extra attack ONCE)</p>
+          </div>
+
+          <div class="buttons2" id="secondWind">
+            <p>Second Wind (Single-use healing)</p>
+          </div>
+
+          <div class="buttons2" id="end">
+            <p>End turn</p>
+          </div>
+
+    </div>
+    </div>
+</div>
+<img src="images/sheets/initiative.png" alt="charactersheet" id="sheet">
+</div>
+  <footer>
+    All official games and images come courtesy of Wizards of the Coast's <a href="https://company.wizards.com/fancontentpolicy">Fan Content Policy</a> and was compiled by <a href="https://aturner98.com">Adam Turner</a>. Code is available <a href="https://github.com/ajturner98/final-project">here</a> on GitHub.
+  </footer>
+    <script src="js/game.js"></script>
+  </body>
+</html>

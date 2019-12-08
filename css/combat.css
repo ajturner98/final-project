@@ -20,6 +20,11 @@ nav{
   margin-right: 25px;
 }
 
+.navbtn{
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
 #two{
   display: flex;
   flex-direction: row;
@@ -50,7 +55,7 @@ img{
 
 #game{
   background: #000;
-  max-width: 60%;
+  width: 60%;
   margin-left: 20px;
   max-height: 550px;
   margin-bottom: 25px;
@@ -122,7 +127,7 @@ nav {
 	padding:13px 32px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #3d768a;
-  margin-left: 300px;
+  margin: 300px;
   margin-top: 159px;
 }
 #start:hover {
@@ -134,18 +139,7 @@ nav {
 	top:1px;
 }
 
-/* links   for (let i = 0; i < myElements.length; i++) {
-  	mainButtons[i].style.display = "block";
-  }
-
-let halInitiative = Math.floor(Math.random() * 20)+3;
-let goblinInitiative = Math.floor(Math.random() * 20)+3;
-let bossInitiative = Math.floor(Math.random() * 20)+3;
-  if (halInitiative > goblinInitiative && halInitiative > bossInitiative) {
-
-  } else {
-
-  } */
+/* links*/
 
 nav a {
     color: #fff;
