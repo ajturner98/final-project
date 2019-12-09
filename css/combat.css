@@ -1,3 +1,12 @@
+html {
+    font-size: 100%; /* keep */
+    box-sizing: border-box; /* keep */
+}
+* {
+    box-sizing: inherit; /* keep */
+}
+
+
 body{
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -25,11 +34,6 @@ nav{
   font-size: 1.5rem;
 }
 
-#two{
-  display: flex;
-  flex-direction: row;
-}
-
 h1 {
   margin-left: 20px;
   color: #fff;
@@ -50,7 +54,6 @@ h2{
 img{
   max-width: 40%;
   margin: 0 25px 25px 25px;
-  height: 502px;
 }
 
 #game{
@@ -193,4 +196,40 @@ nav a:visited {
 
 a:hover {
     color: #82E8FF;
+}
+
+@media screen and (max-width: 1000px) {
+  #full{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+p{
+  margin: 35px;
+}
+
+h2, h3{
+  margin: 35px;
+}
+
+#game{
+width: 90%;
+margin: 35px;
+}
+
+  .navbtn{
+    padding: 10px;
+    font-size: 1rem;
+  }
+  footer{
+    padding: 40px;
+    font-size: 10px;
+  }
+
+  img{
+    max-width:50%;
+    max-height: auto;
+    text-align: center;
+  }
 }

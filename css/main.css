@@ -1,3 +1,11 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
 body{
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -41,6 +49,11 @@ h3{
 
 h2{
   margin-left: 20px;
+}
+
+img{
+margin-left: 25px;
+margin-bottom: 10px;
 }
 
 dl{
@@ -89,4 +102,27 @@ nav a:visited {
 
 a:hover {
     color: #82E8FF;
+}
+
+@media screen and (max-width: 1000px) {
+  footer{
+    padding: 40px;
+    font-size: 10px;
+  }
+  .navbtn{
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .qs{
+    margin: 10px;
+  }
+
+  p{
+    margin: 35px;
+  }
+
+  h2{
+    margin: 35px;
+  }
 }
