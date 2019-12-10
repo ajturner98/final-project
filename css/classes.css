@@ -58,7 +58,7 @@ h2{
 #classes{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-grid-auto-rows auto;
+grid-auto-rows: auto;
 }
 
 .class{
@@ -66,7 +66,6 @@ grid-auto-rows auto;
   margin: 25px;
   text-align: center;
   color: #fff;
-  max-height: auto;
 }
 
 .description{
